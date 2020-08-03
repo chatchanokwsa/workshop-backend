@@ -37,4 +37,11 @@ public class CircularBufferTest {
         assertTrue(!result);
     }
 
+    @Test
+    public void write_A_to_buffer_should_read_A() {
+        CircularBuffer cb = new CircularBuffer();
+        cb.writeData("A");
+        assertEquals("A",cb.readData());
+    }
+
 }
