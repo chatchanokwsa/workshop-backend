@@ -19,8 +19,8 @@
 + write pointer = 0
 
 ### List of test cases
-* TC01 => 1 commit
-* TC02 => 1 commit
-* TC03 => 1 commit
-* TC04 => 1 commit
-* TC05 => 1 commit
+* TC01 => create_new_buffer_should_empty
+* TC02 => write_A_to_buffer_should_read_A
+* TC03 => write_A_B_C_to_buffer_should_read_A_B_C
+* TC04 => write_A_B_C_D_to_buffer_should_read_A_B_C_D
+* TC05 => write_A_B_C_D_E_to_buffer_should_read_A_B_C_D_E
