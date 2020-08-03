@@ -19,7 +19,7 @@
 + write pointer = 0
 
 ### List of test cases
-* TC01 => create_new_buffer_should_empty
+* TC01 => create_new_buffer_should_full
 * TC02 => write_A_to_buffer_should_read_A
 * TC03 => write_A_B_C_to_buffer_should_read_A_B_C
 * TC04 => write_A_B_C_D_to_buffer_should_read_A_B_C_D
